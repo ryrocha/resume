@@ -168,7 +168,7 @@
       \tikz\path[fill overzoom image={\@photo}]circle[radius=0.5\linewidth];
     \fi%
     \end{minipage}\par}{}%
-  \endgroup\medskip
+  \endgroup\smallskip
 }
 
 \renewenvironment{quote}{\color{accent}\itshape\large}{\par}
