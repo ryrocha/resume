@@ -1,0 +1,92 @@
+\documentclass[10pt,a4paper,ragged2e]{altacv}
+
+% page layout
+\geometry{left=1.5cm,right=9.1cm,marginparwidth=6.8cm,marginparsep=0.8cm,top=1.25cm,bottom=1.25cm}
+
+% packages
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[default]{lato}
+
+% colors
+\definecolor{VividPurple}{HTML}{000000}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{2E2E2E}
+\colorlet{heading}{VividPurple}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+% text bullets
+\renewcommand{\itemmarker}{{\small\textbullet}}
+
+\begin{document}
+  \name{Ryan Rocha}
+  \tagline{Graduate Student Researcher}
+  \personalinfo{%
+    \email{rarocha@ucdavis.edu}
+    \location{Davis, CA}
+    \linkedin{linkedin.com/in/ryan-rocha}
+    \github{github.com/ryrocha} 
+}
+
+%% header extends all the way across
+\begin{fullwidth}
+  \makecvheader
+\end{fullwidth}
+
+% itemize environment size
+\AtBeginEnvironment{itemize}{\small}
+
+% experience
+\cvsection[page1sidebar]{Experience}
+
+\cvevent{University of California, Davis}{Graduate Student Researcher}{September 2017 -- Present}{Davis, CA}
+\begin{itemize}
+  \item Programmed and tested visual servoing algorithms for multi-rotor drones using ROS, OpenCV, Python and state estimation
+  \item Developed an autonomous in-flight multi-rotor drone docking simulation in Gazebo
+  \item Designed, fabricated and flight tested a custom multi-rotor drone for use in an autonomous in-flight docking system 
+\end{itemize}
+
+\cvevent{}{Undergraduate Student Researcher}{March 2017 -- September 2017}{Davis, CA}
+\begin{itemize}
+  \item Served as a team lead for the development of a dynamic procedure used to help astronauts complete tasks in which they have no prior training 
+  \item Designed and fabricated an aluminum apparatus using SolidWorks and conventional machining techniques in order to test an individual’s aptitude with various tool skill sets
+\end{itemize}
+
+\divider
+
+\cvevent{Integrated Comfort Incorporated - ICI}{Mechanical Engineering Summer Intern}{June 2017 -- September 2017}{Sacramento, CA}
+\begin{itemize}
+  \item Extensively used SolidWorks to design and update parts used in air conditioning system retrofits
+  \item Designed, ordered, verified, tested and installed a custom evaporative pre-cooler for an air conditioning unit
+  \item Improved techniques pertaining to the quality assurance and organization of a sizable parts inventory
+\end{itemize}
+
+\divider
+
+\cvevent{Western Cooling Efficiency Center - WCEC}{Student Engineering Researcher}{June 2016 -- June 2017}{Davis, CA}
+\begin{itemize}
+  \item Constructed, verified and tested a large building energy consumption simulations using efficiency data from emerging technologies 
+\end{itemize}
+
+\cvevent{}{Student Engineering Assistant}{October 2014 -- June 2016}{Davis, CA}
+\begin{itemize}
+  \item Developed real-time and post-process data analysis programs using Python in a Unix environment for a variety of data types
+  \item Comprehensively assisted in the planning and installation of various thermodynamic system retrofits
+  \item Wrote and reviewed official interim reports that pertained to several different research topics
+\end{itemize}
+
+\divider
+
+\cvevent{National Aeronautics and Space Administration - NASA}{Aerospace Engineering Summer Intern}{3 summers: 2014 -- 2016}{Mountain View, CA}
+\begin{itemize}
+  \item Processed Computational Fluid Dynamics (CFD) simulation results for NASA's Space Launch System using Python, Perl and MATLAB in a Linux environment to optimize data organization and visualization techniques 
+  \item Generated overset structured grids on various parts of the Space Launch System for use in CFD simulations using Tcl and NASA-developed gridding software
+\end{itemize}
+
+\clearpage
+
+\nocite{*}
+
+\end{document}
