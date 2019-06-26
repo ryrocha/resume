@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.6.4)  26 JUN 2019 13:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.6.4)  26 JUN 2019 15:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1159,14 +1159,14 @@ LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(34.14322pt, 329.76744pt, 250.38434pt)
+* h-part:(L,W,R)=(36.98866pt, 324.077pt, 253.22934pt)
 * v-part:(T,H,B)=(34.14322pt, 726.68355pt, 34.14322pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=329.76744pt
+* \textwidth=324.077pt
 * \textheight=726.68355pt
-* \oddsidemargin=-38.12677pt
-* \evensidemargin=-38.12677pt
+* \oddsidemargin=-35.28133pt
+* \evensidemargin=-35.28133pt
 * \topmargin=-75.12677pt
 * \headheight=12.0pt
 * \headsep=25.0pt
@@ -1316,7 +1316,7 @@ Package logreq Info: Writing requests to 'resume.run.xml'.
 Here is how much of TeX's memory you used:
  24944 strings out of 492609
  505476 string characters out of 6129034
- 947042 words of memory out of 5000000
+ 947040 words of memory out of 5000000
  28458 multiletter control sequences out of 15000+600000
  227115 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1328,7 +1328,7 @@ sr/local/texlive/2019/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc
 .pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pf
 b></usr/local/texlive/2019/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pf
 b></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on resume.pdf (1 page, 111048 bytes).
+Output written on resume.pdf (1 page, 110447 bytes).
 PDF statistics:
  32 PDF objects out of 1000 (max. 8388607)
  24 compressed objects within 1 object stream
